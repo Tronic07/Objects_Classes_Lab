@@ -1,9 +1,5 @@
 # Objects_Classes_Lab
 
-A C++ class for representing a book in a library system.
-
-## Data Dictionary
-
 | Attribute          | Data Type     | Description                    |
 |--------------------|---------------|--------------------------------|
 | `accountNumber`    | `std::string` | The account number.            |
@@ -16,8 +12,8 @@ A C++ class for representing a book in a library system.
 |-----------------------------------------------------------------------------------|---------------|---------------------------|
 | `BankAccount()`                                                                   | (Constructor) | Default constructor.      |
 | `BankAccount(std::string accNum, std::string holderName, double initialBalance)`  | (Constructor) | Parameterized constructor.|
-| `getTitle() const`           | `std::string` | Gets the book's title.    |
-| `getAuthor() const`          | `std::string` | Gets the book's author.   |
-| `isAvailable() const`        | `bool`        | Checks if available.      |
-| `checkOut()`                 | `void`        | Checks out the book.      |
-| `returnBook()`               | `void`        | Returns the book.         |
+| `getAccountNumber() const`           | `std::string` | Gets the account number.    |
+| `getAccountHolderName() const`          | `std::string` | Gets the account holder's name.   |
+| `getBalance() const`        | `double`        | gets the account balance.      |
+| `deposit()`                 | `void`        | Deposits into the account.      |
+| `withdraw()`               | `void`        | Withdraws from the account.         |
